@@ -1,6 +1,9 @@
 # EX.No.2.1 CREATE A 3D SOLID MODEL FROM ISOMETRIC DRAWING
 
-## Date:
+## Date:23/11/26
+# REFERANCE NUMBER: 26009333
+# NAME : Shanmugapriya RP
+
 
 ## AIM
 To create a 3Dmodel from the given isometric drawing using fusion 360 tool. 
@@ -10,68 +13,66 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 2. Windows 10
 3. 16 GB of RAM (integrated graphics recommend 1 GB or more)
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
+# PROCEDURE:
 
-## PROCEDURE
+1. Open Autodesk Fusion 360, create a new design, select the XY plane, and click 
+on Create Sketch. 
+2. Using the Rectangle tool, draw a rectangle of dimensions 100 mm × 60 mm. 
+Click Finish Sketch, select the profile, and use Extrude = 30 mm with the 
+operation set to New Body to create the main camera body.
 
- ### STEP-1:  Start the sketch command
+<img width="633" height="668" alt="Screenshot 2026-11-23 214342" src="https://github.com/user-attachments/assets/bd568a20-75f4-48b1-82b3-79583e16886b" />
 
-   Select Sketch > Create Sketch.
+3. Select the front face of the main body and click on Create Sketch. Draw a circle 
+of diameter Ø50 mm using the Centre Diameter Circle tool and position it 
+according to the reference drawing
 
- ### STEP-2:  Select the Sketch Plane
+4. Click Finish Sketch, select the circular profile, and use Extrude = 20 mm. Set the 
+operation to Join to connect the circular projection to the main body
 
-   Select the Front (XZ) Plane
+<img width="377" height="380" alt="Screenshot 2026-11-23 220038" src="https://github.com/user-attachments/assets/5bcd92b3-0386-44df-bcd2-c427b7119884" />
+5. Select the top face of the camera body and create a new sketch. Draw the 
+rectangular profile for the raised top section using the dimensions specified in the 
+reference drawing. 
 
-### STEP-3: Create a Rectangle 
+6. Click Finish Sketch, select the rectangular profile, and use Extrude to raise it to 
+the required height. Select Join to combine it with the main body. 
 
-   1.	Select Sketch > Rectangle > Center Rectangle.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the rectangle.
-   4.	Type the Tab button and enter the values 100 mm and 60mm for the width and height respectively.
-   5.	Click again to place the rectangle.
-   6.	Click Finish Sketch after completing.
+7. Select the top surface of the raised section and create a new sketch. Draw the 
+required rectangular or square profile according to the reference drawing. 
 
- ### STEP-4: Extrude Rectangle in XZ Plane
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 30mm. 
-   5.	Press ENTER to accept the value.
+8. Finish the sketch and use Extrude to create the raised feature. Enter the required 
+extrusion distance and select Join if it connects to the existing body. 
 
- ### STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
- ### STEP-6: Select the Sketch Plane
-   Select the FRON SURFACE of rectangular block 
- ### STEP-7: Create a CIRCLE 
-   1.	Select Sketch >CIRCLE  > CENTER CIRCLE.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the CIRCLE.
-   4.	Type the Tab button and enter the value DIA 100mm .
-   5.	Click again to place the circle.
-   6.	Click Finish Sketch after completing.
+9. Select the appropriate top face and create a sketch. Draw a circle of diameter 
+Ø20 mm using the Centre Diameter Circle tool.
 
- ### STEP-8:  Extrude CIRCLE 
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 20mm. 
-   5.	Press ENTER to accept the value.
+10. Click Finish Sketch, select the circular profile, and use Extrude to raise it to the 
+specified height. Set the operation to Join to combine it with the camera body. 
 
- ### STEP-9: Start the sketch command
-   Select Sketch > Create Sketch.
-   
- ### STEP-10: Select the Sketch Plane
-   Select the TOP SURFACE OF RECTANGLE.
-   
- ### STEP-11: Create a line
-	1.Select Line command.
-	2. Draw the projections in the diagram 
-	3. Click Finish Sketch.
-	4. extrude the sketch.
+11. Select the opposite top section and create a new sketch. Using the Rectangle 
+tool, draw the small square feature according to the reference drawing. 
+
+12. Finish the sketch and use Extrude to raise the square profile to the required 
+height. Select Join to attach it to the existing body. 
+
+13. Select the required edge of the camera body and use the Chamfer tool.
+
+	<img width="441" height="336" alt="Screenshot 2026-11-23 214411" src="https://github.com/user-attachments/assets/3afc91a9-24bc-4966-8e49-2dbf6567c30b" />
+
+14. Inspect the completed model and verify the dimensions, including the 100 mm 
+length, 60 mm height, Ø50 mm front circular feature, and Ø20 mm top circular 
+feature. Check that all extruded features are correctly joined and positioned. 
+
+15. Finally, switch to Isometric View and compare the completed camera model with 
+the reference drawing. Save the design using the appropriate file name.
+
 
 ## INPUT
-![image](https://user-images.githubusercontent.com/113594316/198495472-9a69edb1-f0c6-470c-b9ae-fe282fa6a678.png)
+<img width="1002" height="651" alt="Screenshot 2026-11-23 214429" src="https://github.com/user-attachments/assets/823ad5fa-1bc7-4bb0-b295-b7ed988585dc" />
 
 ## OUTPUT
+<img width="1238" height="775" alt="Screenshot 2026-11-23 142839" src="https://github.com/user-attachments/assets/cbedf7e3-c997-4eee-aabb-db8a313258a1" />
 
 ## RESULT: 
  Thus, the 3D model is created from given isometric drawing.
